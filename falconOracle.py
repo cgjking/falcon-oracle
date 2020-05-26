@@ -73,10 +73,6 @@ with cx_Oracle.connect(userName, password,host,) as connection:
     
     
     
-        # 将数据上传
-        print(payload)
-        r = requests.post(push_url, data=json.dumps(payload))
-    
     
     
         # 获取session数量
